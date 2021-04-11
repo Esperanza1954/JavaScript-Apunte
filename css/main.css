@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #3494E6;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner h2 {
+  font-size: 200px;
+  font-family: "Fredoka One", cursive;
+  text-shadow: 0px 20px 10px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.contenido {
+  width: 100%;
+  background: #fff;
+  padding: 50px;
+}
+
+.contenido .secciones {
+  width: 90%;
+  margin: 100px auto;
+}
+
+.contenido .secciones .seccion {
+  width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #3494E6;
+  margin: 50px auto;
+}
+
+.contenido .secciones .seccion .imagen {
+  width: 39%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenido .secciones .seccion .imagen img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.contenido .secciones .seccion .info {
+  width: 60%;
+  text-align: justify;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.contenido .secciones .seccion .info h2 {
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.contenido .secciones .seccion .info p {
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h2 {
+  font-size: 30px;
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
